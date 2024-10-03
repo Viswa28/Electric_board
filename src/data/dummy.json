@@ -1,0 +1,102 @@
+[
+    {
+      "applicantId": "001",
+      "name": "John Doe",
+      "date": "2023-09-15",
+      "status": "Pending",
+      "govtIdType": "Aadhar",
+      "govtIdNumber": "1234-5678-9101",
+      "loadApplied": 150
+    },
+    {
+      "applicantId": "002",
+      "name": "Jane Smith",
+      "date": "2023-09-17",
+      "status": "Approved",
+      "govtIdType": "Passport",
+      "govtIdNumber": "A1B2C3D4E",
+      "loadApplied": 250
+    },
+    {
+      "applicantId": "003",
+      "name": "Michael Johnson",
+      "date": "2023-09-20",
+      "status": "Rejected",
+      "govtIdType": "Voter ID",
+      "govtIdNumber": "MJC123456",
+      "loadApplied": 180
+    },
+    {
+      "applicantId": "004",
+      "name": "Emily Davis",
+      "date": "2023-09-22",
+      "status": "Pending",
+      "govtIdType": "Aadhar",
+      "govtIdNumber": "EMD987654",
+      "loadApplied": 200
+    },
+    {
+      "applicantId": "005",
+      "name": "Christopher Brown",
+      "date": "2023-09-25",
+      "status": "Approved",
+      "govtIdType": "Passport",
+      "govtIdNumber": "CBR54321",
+      "loadApplied": 100
+    },
+    {
+      "applicantId": "006",
+      "name": "Jessica Taylor",
+      "date": "2023-09-28",
+      "status": "Pending",
+      "govtIdType": "Driving License",
+      "govtIdNumber": "JTL111222",
+      "loadApplied": 220
+    },
+    {
+      "applicantId": "007",
+      "name": "Matthew Wilson",
+      "date": "2023-09-30",
+      "status": "Approved",
+      "govtIdType": "Voter ID",
+      "govtIdNumber": "MW12345678",
+      "loadApplied": 190
+    },
+    {
+      "applicantId": "008",
+      "name": "Sarah Moore",
+      "date": "2023-10-01",
+      "status": "Rejected",
+      "govtIdType": "Aadhar",
+      "govtIdNumber": "SM9101112",
+      "loadApplied": 210
+    },
+    {
+      "applicantId": "009",
+      "name": "David Lee",
+      "date": "2023-10-03",
+      "status": "Pending",
+      "govtIdType": "Passport",
+      "govtIdNumber": "DL444555",
+      "loadApplied": 160
+    },
+    {
+      "applicantId": "010",
+      "name": "Laura Harris",
+      "date": "2023-10-05",
+      "status": "Approved",
+      "govtIdType": "Driving License",
+      "govtIdNumber": "LH654321",
+      "loadApplied": 175
+    },
+    {
+      "applicantId": "011",
+      "name": "Robert Clark",
+      "date": "2023-10-07",
+      "status": "Pending",
+      "govtIdType": "Aadhar",
+      "govtIdNumber": "RC333444",
+      "loadApplied": 190
+    }
+  ]
+  
