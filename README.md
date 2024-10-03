@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+About Client:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+India's leading Electricity board is one of the clients, offering different categories of electricity connections that meet requirements for a wide range of customers.
 
-## Available Scripts
+Problem Statement:
 
-In the project directory, you can run:
+In the modern age of automation and digitalization, the client wants to create a web application for its staff with capability to view and edit the connections made/requested by the user. To solve the problem and get an edge over its competitors, the client wants a Multi- Page User Interface to keep track of applied connections and their status. The application should cover the following aspects:
 
-### `npm start`
+PART A
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Display the records in a grid or tabular format.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Search option to look for connection details with Applicant ID.
 
-### `npm test`
+3. Must be able to add a new User.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. Feature to delete some existing user (optional)
 
-### `npm run build`
+5. Add a date picker to filter by date range via date of application. 6. Option to view/edit electricity connection application requests.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+a. Refer dataset for the data attributes. (JSON file will be given... use that in the code for initial)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+b. Could be on the same or different page. (optional)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+7. Data Validation.
 
-### `npm run eject`
+a. Should not be allowed to change the Date of Application, Govt ID Type, and ID
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Number.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+b. Load applied should not exceed 200 KV.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+c. Users only with rejected states can be deleted.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+PART B
 
-## Learn More
+1. Create a visualization graph e.g., bar or line chart for number of connection requests in every month. (data segregation must be done on the basis of status) The user should be given flexibility to select status (pending, approved etc.) of choice.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Pie Chart or any other chart based on imagination (optional) (Use some form of charting library).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Points to Remember:
 
-### Code Splitting
+1. The code should be structured & scalable with proper comments.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Ul should be client presentable. Wherever applicable use charting libraries. (UI)
 
-### Analyzing the Bundle Size
+3. Database Services to be used for the storage of data and please follow the normalization principles for creating the Database. (if using Backend... completely
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+optional and upto preference) 4. Share proper Installation steps/updated README.md file.
 
-### Making a Progressive Web App
+5. You are requested to upload your assignment on repositories like GitHub.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+6. If not using backend you can store the data in web storages (session storage, loc
 
-### Advanced Configuration
+storage or web storage) 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+7. If doing above step then make sure data should retain in that storage. (if using local storage then added/modified data must not get lost after closing/refreshing the session)
 
-### Deployment
+8. Use of Firebase or any other tool is also allowed just make sure to put this in the docs.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+9. If desired you can deploy it too.
